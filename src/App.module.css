@@ -1,0 +1,72 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 1rem;
+    min-height: 100vh;
+}
+
+.left {
+    width: 200px;
+    min-height: 100vh;
+    padding-top: 20px;
+    background: #ffffff;
+}
+
+.right {
+    flex-grow: 1;
+    min-height: 100vh;
+    padding: 26px 16px 0;
+    background: #f0f0f0;
+}
+
+.tableContainer {
+    width: 100%;
+}
+
+.tableContainer table {
+    margin-bottom: 16px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons *:not(:last-child) {
+    margin-right: 16px;
+}
+
+.filterBoxContainer {
+    background-color: #ffffff;
+    border: 1px solid rgb(232, 237, 242);
+    margin-bottom: 16px;
+    padding: 13px 12px;
+    width: 100%;
+}
+
+.filterBoxItemsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-collapse: collapse;
+    max-width: 750px;
+}
+
+.orgUnitTree {
+    flex-grow: 1;
+}
+
+.dataSetListClass {
+    flex-grow: 2;
+}
+
+.filterButton {
+    min-height: 40px;
+}
+
+.tableCellRight {
+    text-align: right;
+}
